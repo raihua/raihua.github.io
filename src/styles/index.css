@@ -9,5 +9,12 @@
 }
 
 body {
-    background-color: #eef0f2;  
+    background-color: #eef0f2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
