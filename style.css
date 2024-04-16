@@ -78,6 +78,7 @@ ul.nav-list a {
 
 
 
+
 @media only screen and (max-width: 600px) {
   header h1 {
     text-align: center;
@@ -104,4 +105,9 @@ section h2 {
   margin-top: 2px;
   text-decoration-line: underline;
   text-decoration-style: solid;
+}
+
+.card-body-bullet-points li {
+ padding-top: 8px;
+ padding-bottom: 8px;
 }
