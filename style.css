@@ -20,6 +20,16 @@ html {
   }
 }
 
+img {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top:5px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
 
 body {
   margin: 0;
@@ -29,6 +39,8 @@ header {
   background-color: var(--header-blue);
   width: 100;
   padding-bottom: 5px;
+  position: sticky;
+  top: 0px;
 }
 
 header h1 {
@@ -90,4 +102,6 @@ section {
 
 section h2 {
   margin-top: 2px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
 }
