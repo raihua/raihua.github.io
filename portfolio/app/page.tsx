@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <section className="mx-auto flex max-w-3xl flex-col items-center px-6 py-24 text-center sm:py-32">
       <div className="flex h-32 w-32 items-center justify-center rounded-full bg-gray-200 text-3xl font-semibold text-gray-500 sm:h-40 sm:w-40">
-        PT
+        <img src="/profile.jpeg" alt="Profile picture of Peter Trinh" className="h-full w-full rounded-full object-cover" />
       </div>
 
       <h1 className="mt-8 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
