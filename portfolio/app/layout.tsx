@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "./_components/navbar";
 import "./globals.css";
+import Head from "next/head";
 
 
 export const metadata: Metadata = {
@@ -17,11 +18,11 @@ export default function RootLayout({
     <html
       lang="en"
     >
-      <head>
-        <meta name="apple-mobile-web-app-title" content="PeterTrinh" />
-      </head>
+      <Head>
+        <meta name="apple-mobile-web-app-title" content="PeterTrinh" key="apple-mobile-web-app-title" />
+      </Head>
       <body>
-        <Navbar />
+      <Navbar />
         {children}
       </body>
     </html>
