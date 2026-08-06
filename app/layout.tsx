@@ -13,7 +13,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en">
       <body>
         <NavBar />
-        {children}
+        <div className="justify-items-center p-2">
+          {children}
+        </div>
       </body>
     </html>
   );
