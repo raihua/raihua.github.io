@@ -1,15 +1,4 @@
 import Image from "next/image";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu"
-
-import { AspectRatio } from "@/components/ui/aspect-ratio"
-
 
 const navLinks = [
   { href: "/#about", label: "About" },
@@ -21,34 +10,22 @@ const navLinks = [
 export default function Home() {
   return (
     <div>
-      <NavigationMenu>
-        <NavigationMenuList>
-          {navLinks.map((link) => (
-            <NavigationMenuItem key={link.href}>
-              <NavigationMenuLink href={link.href}>
-                {link.label}
-              </NavigationMenuLink>
-            </NavigationMenuItem>
-          ))}
-        </NavigationMenuList>
-      </NavigationMenu>
-
       <main>
         <section id="about">
-          <AspectRatio
-            ratio={1 / 1}
-            className="w-full max-w-[12rem] rounded-lg bg-muted"
-          >
-            <Image
-              src="/Me.jpeg"
-              alt="Photo of Peter Trinh"
-              fill
-              className="rounded-lg object-cover"
-            />
-          </AspectRatio>
+          <Image
+            src="/Me.jpeg"
+            alt="Photo of Peter Trinh"
+            fill
+            className="rounded-lg object-cover"
+          />
+          <h1>About Me</h1>
+          <h2>Hi, I'm Peter Trinh!</h2>
+          <p>I am a software engineer with experience in designing and implementing software solutions for business problems.</p>
         </section>
 
         <section id="experience">
+
+
         </section>
 
         <section id="projects">
