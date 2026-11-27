@@ -4,17 +4,232 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Peter Trinh</title>
+  <title>Peter Trinh | Software Engineer</title>
+  <meta name="author" content="Peter Trinh">
+  <meta name="description"
+    content="Peter Trinh, Adelaide software engineer skilled in secure authentication, AWS/Azure, Docker, GitHub Actions and Python, Bash and PowerShell scripting.">
+  <meta property="og:title" content="Peter Trinh | Software Engineer" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://raihua.github.io" />
+  <meta property="og:image" content="https://raihua.github.io/public/PeterTrinh.jpeg" />
   <link rel="icon" type="image/png" href="/public/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
   <link rel="shortcut icon" href="/public/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png" />
   <meta name="apple-mobile-web-app-title" content="Peter Trinh" />
   <link rel="manifest" href="/public/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <a class="nav-brand" href="#top">Peter Trinh</a>
+      <ul class="nav-links">
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-name">
+      <img class="hero-photo" src="public/PeterTrinh.jpeg" alt="Portrait of Peter Trinh" width="160" height="160">
+      <div class="hero-text">
+        <p class="eyebrow">Software Engineer · Adelaide, SA</p>
+        <h1 id="hero-name">Peter Trinh</h1>
+        <p class="lead">
+          Software Engineering graduate (results pending) skilled in secure authentication,
+          AWS/Azure, Docker, GitHub Actions and Python, Bash and PowerShell scripting.
+        </p>
+        <ul class="contact-chips">
+          <li><a href="mailto:raihua.dev@gmail.com">raihua.dev@gmail.com</a></li>
+          <li><a href="tel:+61405171897">0405 171 897</a></li>
+          <li><a href="https://www.linkedin.com/in/raihuadev" target="_blank" rel="noopener">linkedin.com/in/raihuadev</a></li>
+          <li><a href="https://raihua.github.io">raihua.github.io</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="section" aria-labelledby="experience-title">
+      <h2 id="experience-title">Professional Experience</h2>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div>
+            <h3>Software Engineer (Freelance)</h3>
+            <p class="entry-org">ZenithSoft</p>
+          </div>
+          <p class="entry-date">Mar 2025 – Present</p>
+        </div>
+        <ul class="entry-points">
+          <li>Run client projects from requirements to deployment.</li>
+          <li>Deployed a client site on AWS (S3, CloudFront, Route 53).</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div>
+            <h3>Software Engineer Intern</h3>
+            <p class="entry-org">Mobius Farms · Scrum Master, team of 3</p>
+          </div>
+          <p class="entry-date">Jan 2024 – Feb 2024</p>
+        </div>
+        <ul class="entry-points">
+          <li>Digitized 6 months of data (AWS, Python) for ML forecasts.</li>
+          <li>Designed a normalised MySQL DB with automated triggers.</li>
+          <li>Built a React + ASP.NET Core Web API app (Auth0, EF Core).</li>
+          <li>Set up GitHub Actions CI/CD to Azure App Service.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div>
+            <h3>Heart Failure Information Portal</h3>
+            <p class="entry-org">Capstone · team of 5</p>
+          </div>
+          <p class="entry-date">Feb 2026 – Nov 2026</p>
+        </div>
+        <ul class="tags" aria-label="Technologies">
+          <li>ASP.NET (C#)</li>
+          <li>Node.js/Express</li>
+          <li>React</li>
+          <li>Umbraco</li>
+        </ul>
+        <ul class="entry-points">
+          <li>Extended sign-in/sign-up to sync Umbraco members.</li>
+          <li>Built a C# controller auto-creating linked Umbraco members.</li>
+          <li>Set up shared-key JWT single sign-on across 3 services.</li>
+          <li>Wrote Dockerfile + Compose; fixed an existing Dockerfile.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div>
+            <h3>Amazon Orders Web App</h3>
+          </div>
+          <p class="entry-date">Aug 2025 – Nov 2025</p>
+        </div>
+        <ul class="tags" aria-label="Technologies">
+          <li>React</li>
+          <li>ASP.NET</li>
+          <li>SQL Server</li>
+          <li>Bootstrap</li>
+        </ul>
+        <ul class="entry-points">
+          <li>Built a full-stack online storefront web app.</li>
+          <li>Designed RESTful APIs for products and orders.</li>
+          <li>Built responsive React components with Bootstrap.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <h2 id="skills-title">Key Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Cloud &amp; DevOps</h3>
+          <ul class="tags">
+            <li>AWS</li>
+            <li>Azure</li>
+            <li>Docker</li>
+            <li>Git</li>
+            <li>GitHub Actions</li>
+            <li>Jira (Scrum)</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Scripting &amp; Languages</h3>
+          <ul class="tags">
+            <li>Python (Pytest)</li>
+            <li>Bash</li>
+            <li>PowerShell</li>
+            <li>C#/.NET</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Security &amp; Systems</h3>
+          <ul class="tags">
+            <li>JWT/SSO</li>
+            <li>Auth0</li>
+            <li>AWS IAM/ACM</li>
+            <li>Active Directory</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section" aria-labelledby="education-title">
+      <h2 id="education-title">Education &amp; Achievements</h2>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div>
+            <h3>Bachelor of Software Engineering (Honours)</h3>
+            <p class="entry-org">Adelaide University · final year completed, awaiting results</p>
+          </div>
+          <p class="entry-date">Jul 2022 – Dec 2026</p>
+        </div>
+        <ul class="entry-points">
+          <li><strong>UniSA Merit Award 2024</strong> (Top 15% of cohort).</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div>
+            <h3>GovHack Winner – 1st Place</h3>
+            <p class="entry-org">SA Power Networks EV Challenge</p>
+          </div>
+          <p class="entry-date">Aug 2023</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p>Open to software engineering, cloud and DevOps roles. The best way to reach me is by email.</p>
+      <dl class="contact-list">
+        <div>
+          <dt>Email</dt>
+          <dd><a href="mailto:raihua.dev@gmail.com">raihua.dev@gmail.com</a></dd>
+        </div>
+        <div>
+          <dt>Mobile</dt>
+          <dd><a href="tel:+61405171897">0405 171 897</a></dd>
+        </div>
+        <div>
+          <dt>LinkedIn</dt>
+          <dd><a href="https://www.linkedin.com/in/raihuadev" target="_blank" rel="noopener">linkedin.com/in/raihuadev</a></dd>
+        </div>
+        <div>
+          <dt>Website</dt>
+          <dd><a href="https://raihua.github.io">raihua.github.io</a></dd>
+        </div>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Peter Trinh</p>
+  </footer>
 </body>
 
 </html>
